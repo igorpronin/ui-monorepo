@@ -1,0 +1,37 @@
+{
+  "name": "@iprorg/react-ui",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@mui/material": "^5.0.2",
+    "@storybook/addon-a11y": "^5.3.19",
+    "@storybook/addon-knobs": "^5.3.19",
+    "@storybook/addon-storysource": "^5.3.19",
+    "@storybook/preset-typescript": "^3.0.0",
+    "@storybook/react": "^6.3.9",
+    "@testing-library/jest-dom": "^5.11.1",
+    "@testing-library/react": "^10.4.7",
+    "@types/jest": "^26.0.7",
+    "@types/react": "^17.0.24",
+    "babel-loader": "^8.2.2",
+    "duplicate-package-checker-webpack-plugin": "^3.0.0",
+    "jest": "^26.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.57.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "yarn build --watch",
+    "start-storybook": "start-storybook",
+    "build-storybook": "build-storybook"
+  }
+}
